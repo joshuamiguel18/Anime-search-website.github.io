@@ -1,0 +1,243 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+
+.hero {
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    align-items: center;
+    overflow: hidden;
+    background-image: url(/wallpaperflare.com_wallpaper\ \(3\).jpg);
+    
+}
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* black with 50% opacity */
+
+}
+.search-div {
+    padding: 5%;
+    z-index: 2;
+}
+.search-div h1 {
+    font-size: 5rem;
+
+}
+
+.search-div h1 span{
+
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.span2 {
+    color: royalblue;
+    text-decoration-color: white;
+}
+
+
+input {
+    width: 600px;
+    height: 100px;
+    background-color: white;
+    border: none;
+    color: black;
+    outline: none;
+    font-size: 2rem;
+    margin-bottom: 3%;
+}
+
+.scroll-content {
+    height: 500px;
+    width: 50%;
+    padding: min(25px, 3%);
+    overflow-x: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 3%;
+    z-index: 2;
+ 
+}
+.scroll-content::-webkit-scrollbar {
+    display: none;
+}
+
+.card {
+    height: 100%;
+   
+    width: 40%;
+    overflow: hidden;
+}
+
+.card img {
+    height: 90%;
+    width: 100%;
+    object-fit:fill;
+    border-radius: 5%;
+}
+.card h1{
+    display: block;
+    height: 10%;
+    text-align: center;
+    width: 100%;
+    font-weight: 300;
+    font-size: 1.8vmin;
+    width: 100%;
+}
+
+#displayanime {
+    background-color: #2C3333;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    padding-top: 5%;
+
+}
+
+.overlap {
+    z-index: 2;
+    color: black;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+
+
+}
+
+.half1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2%;
+    height: 50vh;
+    padding: 0 1%;
+}
+
+.sub-div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.sub-div h5{
+    font-style: italic;
+    font-weight: 100;
+
+}
+.sub-div h1{
+    font-size: 1.6rem;
+    font-weight: bold;
+
+}
+
+.half1 img{
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    
+}
+.synopsis {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2% 0;
+}
+
+.synop-sub {
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    text-align: center;
+    width: 35%;
+    justify-content: space-between;
+    padding: 0 2%;
+}
+
+.synop-sub h5 {
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.score {
+    background-color: lightskyblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+
+    text-align: center;
+}
+
+.half2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    gap: 2%;
+}
+
+.more-details {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+
+    
+
+}
+
+.list1, .list2  {
+    flex-basis: 50%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1.5px solid white;
+    background-color: orange;
+}
+
+.container {
+    font-size: .9rem;
+    font-weight: 100;
+}
+.container span {
+    font-weight: bold;
+
+}
+
+
+
+
+
+
